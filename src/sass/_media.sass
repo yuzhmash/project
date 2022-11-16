@@ -1,0 +1,183 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 19px
+        &_link
+            font-size: 13px
+    .about
+        &_header
+            font-size: 50px
+        &_subheader
+            font-size: 30px
+    .benefits
+        &_all
+            align-items: flex-start
+        &_descr
+            width: 285px
+    .mobile
+        &_item
+            width: 278px
+            height: 250px
+    .footer
+        &_links
+            width: 344px
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 10px
+        &_link
+            font-size: 10px
+    .mobile
+        display: flex
+        flex-direction: column
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 12px
+        &_number
+            font-size: 18px
+        &_btn
+            width: 142px
+            height: 40px
+            margin-top: 20px
+    .about
+        &_header
+            font-size: 39px
+        &_subheader
+            font-size: 23px
+        &_round
+            margin: 0
+    .benefits
+        &_all
+            flex-direction: column
+            align-items: center
+        &_subtitle
+            margin-top: 22px
+    .world
+        &_label_2
+            padding-right: 56px
+        &_line
+            width: 23vw
+            height: 5px
+    .footer
+        &_wrapper > div
+            width: 50%
+        &_links
+            display: flex
+            justify-content: center
+            flex-direction: column
+            align-items: center
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center 
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0,.8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs_hidden
+        display: none
+    .xs_visible
+        display: block
+    .subheader
+        &_call
+            display: block
+            margin-top: 10px
+            color: #fff
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .about
+        &_header
+            line-height: 45px
+@media (max-width: 575px)
+    .subheader
+        height: 60px
+        &_official
+            display: none
+        &_logo
+            margin-top: 16px
+        &_call
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            margin-top: 11px
+        &_btn
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 6px
+    .about
+        min-height: 400px
+        padding: 93px 0 35px 0
+        &_text
+            display: none
+        &_header
+            font-size: 30px
+            line-height: 35px
+            padding: 0 24px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            line-height: 30px
+            padding: 0 10px
+        &_btn
+    .menu
+        width: 85%
+    .bnefits
+        padding: 22px 0 36px 
+        &_block
+            margin-top: 26px
+
+    .title
+        font-style: 16px
+        margin-top: 15px
+    
+
+                    
+    
